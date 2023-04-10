@@ -28,6 +28,5 @@ jobs:
       - name: Install requirements
         run: pip install -r requirements.txt
       - name: Execute tests
-        env:
-          DJANGO_SETTINGS_MODULE: airlineReservationSystem.settings
-        run: pytest
+        run: 
+          python manage.py test
