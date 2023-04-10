@@ -32,4 +32,4 @@ jobs:
       - name: Execute tests
         run: |
           cd airlineReservationSystem
-          pytest
+          python -m pytest
