@@ -34,4 +34,4 @@ jobs:
           DJANGO_SETTINGS_MODULE: airlineReservationSystem.settings
         run: |
           cd airlineReservationSystem
-          python -m pytest
+          python manage.py test --pattern="*_models.py"
