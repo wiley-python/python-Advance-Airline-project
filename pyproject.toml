@@ -4,4 +4,4 @@ filterwarnings = [
 ]
 
 [pytest]
-pythonpath = . airline
+pythonpath = . src
